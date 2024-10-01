@@ -1,0 +1,439 @@
+****************************************
+Report : power
+        -significant_digits 4
+Design : zcms_sixers_4lane_dbe_lane
+Version: T-2022.03-SP4-VAL
+Date   : Wed Aug 30 21:31:39 2023
+****************************************
+Note - message 'POW-005' limit (10) exceeded. Remainder will be suppressed.
+Mode: func
+Corner: ffgnp_0p935v_0c_cbest_CCbest
+Scenario: func_ffgnp_0p935v_0c_cbest_CCbest
+Voltage: 0.9350
+Temperature: 0.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 3.5321e+06 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             1.8893e+03             1.8893e+03    (  0.1%)         
+clock_network                  N/A                    N/A             3.0901e+04             3.0901e+04    (  0.9%)        i
+register                       N/A                    N/A             3.2463e+05             3.2463e+05    (  9.2%)         
+sequential                     N/A                    N/A             7.2016e+02             7.2016e+02    (  0.0%)         
+combinational                  N/A                    N/A             3.1739e+06             3.1739e+06    ( 89.9%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             3.5321e+06 nW          3.5321e+06 nW
+Mode: func
+Corner: ffgnp_0p935v_0c_rcbest_CCbest
+Scenario: func_ffgnp_0p935v_0c_rcbest_CCbest
+Voltage: 0.9350
+Temperature: 0.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 3.5321e+06 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             1.8893e+03             1.8893e+03    (  0.1%)         
+clock_network                  N/A                    N/A             3.0901e+04             3.0901e+04    (  0.9%)        i
+register                       N/A                    N/A             3.2463e+05             3.2463e+05    (  9.2%)         
+sequential                     N/A                    N/A             7.2016e+02             7.2016e+02    (  0.0%)         
+combinational                  N/A                    N/A             3.1739e+06             3.1739e+06    ( 89.9%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             3.5321e+06 nW          3.5321e+06 nW
+Mode: func
+Corner: ffgnp_0p935v_125c_cbest_CCbest
+Scenario: func_ffgnp_0p935v_125c_cbest_CCbest
+Voltage: 0.9350
+Temperature: 125.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 1.5563e+08 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             2.5020e+03             2.5020e+03    (  0.0%)         
+clock_network                  N/A                    N/A             1.4832e+06             1.4832e+06    (  1.0%)        i
+register                       N/A                    N/A             1.3255e+07             1.3255e+07    (  8.5%)         
+sequential                     N/A                    N/A             2.8225e+04             2.8225e+04    (  0.0%)         
+combinational                  N/A                    N/A             1.4086e+08             1.4086e+08    ( 90.5%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             1.5563e+08 nW          1.5563e+08 nW
+Mode: func
+Corner: ffgnp_0p935v_125c_rcbest_CCbest
+Scenario: func_ffgnp_0p935v_125c_rcbest_CCbest
+Voltage: 0.9350
+Temperature: 125.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 1.5563e+08 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             2.5020e+03             2.5020e+03    (  0.0%)         
+clock_network                  N/A                    N/A             1.4832e+06             1.4832e+06    (  1.0%)        i
+register                       N/A                    N/A             1.3255e+07             1.3255e+07    (  8.5%)         
+sequential                     N/A                    N/A             2.8225e+04             2.8225e+04    (  0.0%)         
+combinational                  N/A                    N/A             1.4086e+08             1.4086e+08    ( 90.5%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             1.5563e+08 nW          1.5563e+08 nW
+Mode: func
+Corner: ffgnp_0p935v_125c_rcworst_CCworst
+Scenario: func_ffgnp_0p935v_125c_rcworst_CCworst
+Voltage: 0.9350
+Temperature: 125.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 1.5563e+08 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             2.5020e+03             2.5020e+03    (  0.0%)         
+clock_network                  N/A                    N/A             1.4832e+06             1.4832e+06    (  1.0%)        i
+register                       N/A                    N/A             1.3255e+07             1.3255e+07    (  8.5%)         
+sequential                     N/A                    N/A             2.8225e+04             2.8225e+04    (  0.0%)         
+combinational                  N/A                    N/A             1.4086e+08             1.4086e+08    ( 90.5%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             1.5563e+08 nW          1.5563e+08 nW
+Mode: func
+Corner: ssgnp_0p675v_125c_cworst_CCworst_T
+Scenario: func_ssgnp_0p675v_125c_cworst_CCworst_T
+Voltage: 0.6750
+Temperature: 125.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 2.6299e+07 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             2.6967e+02             2.6967e+02    (  0.0%)         
+clock_network                  N/A                    N/A             2.4734e+05             2.4734e+05    (  0.9%)        i
+register                       N/A                    N/A             1.9209e+06             1.9209e+06    (  7.3%)         
+sequential                     N/A                    N/A             2.7054e+03             2.7054e+03    (  0.0%)         
+combinational                  N/A                    N/A             2.4128e+07             2.4128e+07    ( 91.7%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             2.6299e+07 nW          2.6299e+07 nW
+Mode: func
+Corner: ssgnp_0p675v_125c_rcworst_CCworst_T
+Scenario: func_ssgnp_0p675v_125c_rcworst_CCworst_T
+Voltage: 0.6750
+Temperature: 125.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 2.6299e+07 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             2.6967e+02             2.6967e+02    (  0.0%)         
+clock_network                  N/A                    N/A             2.4734e+05             2.4734e+05    (  0.9%)        i
+register                       N/A                    N/A             1.9209e+06             1.9209e+06    (  7.3%)         
+sequential                     N/A                    N/A             2.7054e+03             2.7054e+03    (  0.0%)         
+combinational                  N/A                    N/A             2.4128e+07             2.4128e+07    ( 91.7%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             2.6299e+07 nW          2.6299e+07 nW
+Mode: func
+Corner: ssgnp_0p675v_m40c_cworst_CCworst_T
+Scenario: func_ssgnp_0p675v_m40c_cworst_CCworst_T
+Voltage: 0.6750
+Temperature: -40.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 4.7164e+04 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             1.9101e+02             1.9101e+02    (  0.4%)         
+clock_network                  N/A                    N/A             4.2132e+02             4.2132e+02    (  0.9%)        i
+register                       N/A                    N/A             5.5923e+03             5.5923e+03    ( 11.9%)         
+sequential                     N/A                    N/A             1.3939e+01             1.3939e+01    (  0.0%)         
+combinational                  N/A                    N/A             4.0945e+04             4.0945e+04    ( 86.8%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             4.7164e+04 nW          4.7164e+04 nW
+Mode: func
+Corner: ssgnp_0p675v_m40c_rcworst_CCworst_T
+Scenario: func_ssgnp_0p675v_m40c_rcworst_CCworst_T
+Voltage: 0.6750
+Temperature: -40.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = N/A ( N/A )
+  Net Switching Power    = N/A ( N/A )
+Total Dynamic Power      = N/A (  0.0%)
+
+Cell Leakage Power       = 4.7164e+04 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                         N/A                    N/A             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box                      N/A                    N/A             1.9101e+02             1.9101e+02    (  0.4%)         
+clock_network                  N/A                    N/A             4.2132e+02             4.2132e+02    (  0.9%)        i
+register                       N/A                    N/A             5.5923e+03             5.5923e+03    ( 11.9%)         
+sequential                     N/A                    N/A             1.3939e+01             1.3939e+01    (  0.0%)         
+combinational                  N/A                    N/A             4.0945e+04             4.0945e+04    ( 86.8%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                          N/A                    N/A             4.7164e+04 nW          4.7164e+04 nW
+Mode: func
+Corner: tt_0p75v_85c_typical
+Scenario: func_tt_0p75v_85c_typical
+Voltage: 0.7500
+Temperature: 85.0000
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1nW
+Leakage Power Unit   : 1nW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.0000 (default)
+VSS (ground) probability 1.0000 (default)
+
+  Cell Internal Power    = 1.0871e+08 nW ( 49.0%)
+  Net Switching Power    = 1.1326e+08 nW ( 51.0%)
+Total Dynamic Power      = 2.2197e+08 nW (100.0%)
+
+Cell Leakage Power       = 1.8993e+07 nW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                  0.0000e+00             0.0000e+00             0.0000e+00             0.0000e+00    (  0.0%)         
+memory                  0.0000e+00             0.0000e+00             0.0000e+00             0.0000e+00    (  0.0%)         
+black_box               0.0000e+00             0.0000e+00             5.5335e+02             5.5335e+02    (  0.0%)         
+clock_network           4.2163e+07             6.9632e+02             1.6992e+05             4.2333e+07    ( 17.6%)        i
+register                1.0233e+07             6.8847e+06             1.5589e+06             1.8676e+07    (  7.8%)         
+sequential              0.0000e+00             0.0000e+00             1.8895e+03             1.8895e+03    (  0.0%)         
+combinational           5.6313e+07             1.0638e+08             1.7261e+07             1.7995e+08    ( 74.7%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                   1.0871e+08 nW          1.1326e+08 nW          1.8993e+07 nW          2.4097e+08 nW
+1

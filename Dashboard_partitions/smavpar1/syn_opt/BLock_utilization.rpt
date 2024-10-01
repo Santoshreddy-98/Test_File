@@ -1,0 +1,24 @@
+****************************************
+Report : report_utilization
+Design : zcms_sixers_4lane_dbe_lane
+Version: T-2022.03-SP4-VAL
+Date   : Thu Oct  5 22:05:11 2023
+****************************************
+Utilization Ratio:			0.6386
+Utilization options:
+ - Area calculation based on:		site_row of block zcms_sixers_4lane_dbe_lane/icv_in_design
+ - Categories of objects excluded:	hard_macros macro_keepouts soft_macros io_cells hard_blockages 
+Total Area:				257382.6883
+Total Capacity Area:			257345.3966
+Total Area of cells:			164343.2436
+Area of excluded objects:
+ - hard_macros         :		0.0000
+ - macro_keepouts      :		0.0000
+ - soft_macros         :		0.0000
+ - io_cells            :		0.0000
+ - hard_blockages      :		0.0000
+
+Utilization of site-rows with:
+ - Site 'unit':				0.6386
+
+0.6386
